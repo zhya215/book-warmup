@@ -28,8 +28,8 @@ var sum = 0
 {% solution %}
 var a = 1
 var b = 10
-var sum = 0
+var sum = 55
 // complete this solution
 {% validation %}
-assert(sum == 55)
+assert(sum == 55 && a ==1 && b == 10)
 {% endexercise %}
